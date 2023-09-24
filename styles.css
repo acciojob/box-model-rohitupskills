@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 .container{
     width: 400px;
-    border: 2px solid black;
+    border: 5px solid black;
     border-radius: 25px;
     background-color: gray;
     text-align: center;
@@ -10,18 +10,26 @@
 .block{
     height: 100px;
     width: 100px;
+	border:none;
     display: inline-block;
     border-radius: 100%;
     box-sizing: border-box;
     margin: 10px;
 }
-.block1{
+.green{
     background-color: green;
+	height: 100px;
+    width: 100px;
+	border:none;
+    display: inline-block;
+    border-radius: 100%;
+    box-sizing: border-box;
+    margin: 10px;
 }
-.block2{
+.yellow{
     background-color: yellow;
   
 }
-.block3{
+.red{
     background-color: red;
 }
